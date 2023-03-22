@@ -27,7 +27,7 @@ const App = () => {
         searchMovies={searchMovies}
         setSearchTerm={setSearchTerm}
       />
-      {/* <Main /> */}
+       <Main />
         <Container>
           <div className="cardholder" id='Movies'>
               {movies.map((movie) => (
