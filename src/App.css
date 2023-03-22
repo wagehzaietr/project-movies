@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../bg2.png);
+}
+
+
+
+
+.cardholder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
