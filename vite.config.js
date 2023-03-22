@@ -7,7 +7,8 @@ export default defineConfig({
   plugins: [
     ghPages({
       // Options
-      repo: 'https://github.com/wagehzaietr/project-movies'
+      repo: 'https://github.com/wagehzaietr/project-movies',
+      base: "/project-movies/"
     })
   ]
 });
